@@ -6,10 +6,25 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		C5490E1A2417890600DDCC91 /* categ1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = categ1.html; sourceTree = "<group>"; };
+		C5490E1B24178A9900DDCC91 /* categ2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = categ2.html; sourceTree = "<group>"; };
+		C5490E1C24178AB500DDCC91 /* categ3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = categ3.html; sourceTree = "<group>"; };
+		C5490E1D24178ACF00DDCC91 /* subcateg1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = subcateg1.html; sourceTree = "<group>"; };
+		C5490E1E24178AE700DDCC91 /* subcateg2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = subcateg2.html; sourceTree = "<group>"; };
+		C59DA733240ED29B00D54C42 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		C59DA72C240ED23600D54C42 = {
 			isa = PBXGroup;
 			children = (
+				C59DA733240ED29B00D54C42 /* index.html */,
+				C5490E1D24178ACF00DDCC91 /* subcateg1.html */,
+				C5490E1E24178AE700DDCC91 /* subcateg2.html */,
+				C5490E1A2417890600DDCC91 /* categ1.html */,
+				C5490E1B24178A9900DDCC91 /* categ2.html */,
+				C5490E1C24178AB500DDCC91 /* categ3.html */,
 			);
 			sourceTree = "<group>";
 		};
