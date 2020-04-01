@@ -8,182 +8,9 @@
 <meta name="description" content="Alege albumul tau preferat!">
 <meta name="author" content="Petrino Popa">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-td, th {
-  border: 1px solid #000000;
-  text-align: left;
-  padding: 8px;
-}
+<link rel="stylesheet" type="text/css" href="proiect.css">
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-p.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h2.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h3.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-html{
-    font-size: 16px;
-    line-height: 1.8;
-    }
-    
-    *{ /* resetarea spatierilor */
-        margin:0px;
-        padding:0px;
-        text-indent:0px;
-    }
-main{
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:50px;
-}
-p.text{
-        width:60%;
-        float:left;
-    }
-    figure.img-wrap{
-        width:40%;
-        float:left;
-    }
-
-    figure.img-wrap>img{
-        width:100%;
-        height:auto;
-        
-    }
-
-nav{
-        width:100%;
-        position:fixed;
-    }
-
-    ul.menu>li, ul.menu>li>ul.submenu>li{
-        display:block;
-        
-        font-family: Arial, Helvetica, sans-serif;
-        font-size:1.2rem;
-        font-weight:bold;
-        height:1.2rem;
-        line-height:1.2rem;
-        text-align:center;
-        list-style-type:none;
-        overflow:hidden;
-    }
-    ul.menu>li{
-     float:left;
-     width:33.3%;
-    }
-    ul.submenu>li{
-     width:100%;
-    }
-    ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
-        display:block;
-        height:    100%;
-        text-decoration:none;
-        color:black;
-    }
-    ul.menu>li:nth-of-type(even) a, ul.menu>li:nth-of-type(even) div{
-        background:#dd99ff;
-    }
-    ul.menu>li:nth-of-type(odd) a, ul.menu>li:nth-of-type(odd) div{
-        background:#cc66ff;
-    }
-
-    ul.menu>li>ul.submenu{
-        position:relative;
-        top:0px;
-    }
-
-    ul.menu>li>ul.submenu>li
-    {
-        border-top:1px solid black;
-    }
-    ul.menu>li>ul.submenu>li:last-child
-    {
-        border-bottom:1px solid black;
-    }
-
-    ul.menu>li>a:hover, ul.submenu>li>a:hover{
-        background:yellow;
-    }
-    ul.menu>li:hover{
-        overflow:visible;
-    }
-    
-    
-    
-    
-    @media screen and (min-width:400px) and (max-width:700px){
-        p.text{
-        float:none;
-        width:100%;
-        }
-        figure.img-wrap{
-        width:100%;
-        }
-        
-        ul.menu>li{
-         width:25%;
-        }
-
-        ul.menu>li:hover ul.submenu{
-            width:100vw;
-            position:absolute;
-            left:0px;
-            top:1.2rem;
-            border-top:1px solid magenta;
-            border-bottom:1px solid black;
-        }
-        
-        ul.menu>li:nth-of-type(even):hover ul.submenu{
-                background:pink;
-        }
-        ul.menu>li:nth-of-type(odd):hover ul.submenu{
-                background:lightblue;
-        }
-        ul.menu>li:hover ul.submenu>li{
-            float:left;
-            width:15%;
-            border:none;
-        }
-    }
-
-@media screen and (max-width:400px){
-    p.text{
-    float:none;
-    width:100%;
-    }
-    figure.img-wrap{
-    width:100%;
-    }
-}
-
-</style>
 
 </head>
 <body style="background-color:#66ccff">
@@ -193,6 +20,7 @@ nav{
 
 <nav class="wrapper">
     <ul class="menu">
+            <li><a  href="index.html">Home</a></li>
             <li><a  href="categ1.html">Artisti</a></li>
             <li><a  href="categ2.html">Concerte</a></li>
             <li><a  href="categ3.html">Genuri Muzicale</a>
@@ -211,19 +39,27 @@ nav{
 
 <main>
     
+<div class="header">
 <h1 class="sansserif">Albume muzicale</h1>
-<article>
-<p class="sansserif">"Muzica poate schimba lumea" - Ludwig van Beethoven</p>
-</article>
+</div>
 
 <section>
+<div class="row">
+    <div class="col-6">
+        <p class="sansserif">Muzica pentru toata lumea!</p>
+        </div>
+    <div class="col-6">
+        <p class="sansserif">"Muzica poate schimba lumea" - Ludwig van Beethoven</p>
+            </div>
+</div>
+
 <h3 class="sansserif">Traim prin muzica</h2>
-<img src="muzica1.jpg" alt="music" width="650" height="333">
+<img src="muzica1.jpg" alt="music" style="max-width:100%;height:auto;">
 </section>
 
 <section>
   <h2 class="sansserif">SHOP</h1>
-  <p>Cele mai asculate albume, doar la un click distanta.</p>
+  <p class="sansserif">Cele mai asculate albume, doar la un click distanta.</p>
 
 <table>
   <tr>
@@ -257,23 +93,23 @@ nav{
 </table>
 </section>
 
-<article>
+<section>
     <header>
   <h3 class="sansserif">De ce muzica?</h1>
   </header>
-  <p>"Muzica ne trezeste regretul de a nu fi ceea ce ar trebui sa fim, iar magia ei ne incanta pentru o clipa transpunandu-ne in lumea noastra ideala, in care ar trebui sa traim." - Emil Cioran</p>
-</article>
+  <p class="sansserif">"Muzica ne trezeste regretul de a nu fi ceea ce ar trebui sa fim, iar magia ei ne incanta pentru o clipa transpunandu-ne in lumea noastra ideala, in care ar trebui sa traim." - Emil Cioran</p>
+</section>
 
-<article>
+<section>
 <figure>
   <img src="emil-cioran.jpg" alt="Trulli" width="200" height="130">
   <figcaption>Fig1. - Emil Cioran</figcaption>
 </figure>
-</article>
+</section>
 
 <footer>
-  <p>Posted by: Petrino Popa</p>
-  <p>Contact information: <a href="mailto:petrino.popa@yahoo.com">petrino.popa@yahoo.com</a>.</p>
+  <p class="sansserif">Posted by: Petrino Popa</p>
+  <p class="sansserif">Contact information: <a href="mailto:petrino.popa@yahoo.com">petrino.popa@yahoo.com</a>.</p>
 </footer>
 </main>
 </body>

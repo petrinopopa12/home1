@@ -8,32 +8,55 @@
 <meta name="author" content="Petrino Popa">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-    h1.sansserif {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="proiect.css">
     
     
 </head>
 
 <body style="background-color:#99ddff;">
-    
-    <article>
-        <header>
-      <h1 class="sansserif">Genuri muzicale</h1>
-      <p>Alege genul tau preferat...</p>
-      
-      <nav>
-                  <ul>
-                      <li><a href="subcateg1.html">Pop</a></li>
-                      <li><a href="subcateg2.html">Rock</a></li>
-                  </ul>
-      </nav>
-              
-      
-      </header>
-    </article>
+    <header>
 
+
+
+    <nav class="wrapper">
+        <ul class="menu">
+            <li><a  href="index.html">Home</a></li>
+                <li><a  href="categ1.html">Artisti</a></li>
+                <li><a  href="categ2.html">Concerte</a></li>
+                <li><a  href="categ3.html">Genuri Muzicale</a>
+                    <ul class="submenu">
+                        <li><a  href="subcateg1.html">Pop</a></li>
+                        <li><a  href="subcateg2.html">Rock</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </nav>
+
+
+
+
+    </header>
+        <main>
+      <h1 class="sansserif">Genuri muzicale</h1>
+      <section>
+      <p class="sansserif">Alege genul tau preferat...</p>
+      
+    </section>
+    <section>
+    <div class="gallery">
+      <a target="_blank" href="subcateg1.html">
+        <img src="pop.jpg" alt="Pop" width="600" height="400">
+      </a>
+      <div class="desc">Pop</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="subcateg2.html">
+        <img src="rock.jpg" alt="Rock" width="600" height="400">
+      </a>
+      <div class="desc">Rock</div>
+    </div>
+    </section>
+</main>
 </body>
 </html>

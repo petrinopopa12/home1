@@ -8,28 +8,104 @@
 <meta name="author" content="Petrino Popa">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-    h2.sansserif {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="proiect.css">
     
     
 </head>
 
 <body style="background-color:#99ddff;">
-    
-    <article>
         <header>
-      <h2 class="sansserif">Artisti</h1>
-      </header>
-      <p>Ed Sheeran, Ariana Grande, Justin Bieber...</p>
-      <p>Queen, Prince, David Bowie...</p>
-      <p>Drake, Future, Nicki Minaj...</p>
-      <p>Wolfgang Amadeus Mozart, Ludwig van Beethoven...</p>
-      <p>Dua Lipa, Martin Garrix, DJ Snake...</p>
-      <p>JAY-Z, Rihanna, Missy Elliott...</p>
-    </article>
 
+
+
+        <nav class="wrapper">
+            <ul class="menu">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a  href="categ1.html">Artisti</a></li>
+                    <li><a  href="categ2.html">Concerte</a></li>
+                    <li><a  href="categ3.html">Genuri Muzicale</a>
+                        <ul class="submenu">
+                            <li><a  href="subcateg1.html">Pop</a></li>
+                            <li><a  href="subcateg2.html">Rock</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+
+
+
+
+        </header>
+        
+      <main>
+      <h1 class="sansserif">Artisti</h1>
+     
+    <section>
+      <p class="sansserif">Ed Sheeran, Ariana Grande, Justin Bieber...</p>
+      <p class="sansserif">Queen, Prince, David Bowie...</p>
+      <p class="sansserif">Drake, Future, Nicki Minaj...</p>
+      <p class="sansserif">Wolfgang Amadeus Mozart, Ludwig van Beethoven...</p>
+      <p class="sansserif">Dua Lipa, Martin Garrix, DJ Snake...</p>
+      <p class="sansserif">JAY-Z, Rihanna, Missy Elliott...</p>
+    </section>
+    
+    <section>
+    <div class="row" style="background-color:#8080ff;">
+        <div class="col-4">
+            <div class="gallery">
+              <a target="_blank" href="ed.jpeg">
+                <img src="ed.jpeg" alt="Ed Sheeran" width="600" height="400">
+              </a>
+              <div class="desc">Ed Sheeran</div>
+            </div>
+            </div>
+        <div class="col-4">
+            <div class="gallery">
+              <a target="_blank" href="queen.jpg">
+                <img src="queen.jpg" alt="Queen" width="600" height="400">
+              </a>
+              <div class="desc">Queen</div>
+            </div>
+        <div class="col-4">
+        <div class="gallery">
+          <a target="_blank" href="drake.jpg">
+            <img src="drake.jpg" alt="Drake" width="600" height="400">
+          </a>
+          <div class="desc">Drake</div>
+        </div>
+            </div>
+    </div>
+    </section>
+    <section>
+    <div class="row" style="background-color:#9999ff;">
+        <div class="col-4">
+            <div class="gallery">
+              <a target="_blank" href="mozart.jpg">
+                <img src="mozart.jpg" alt="Amadeus Mozart" width="600" height="400">
+              </a>
+              <div class="desc">Wolfgang Amadeus Mozart</div>
+            </div>
+            </div>
+        <div class="col-4">
+            <div class="gallery">
+              <a target="_blank" href="dua.png">
+                <img src="dua.png" alt="Dua Lipa" width="600" height="400">
+              </a>
+              <div class="desc">Dua Lipa</div>
+            </div>
+            </div>
+        <div class="col-4">
+        <div class="gallery">
+          <a target="_blank" href="jayz.jpg">
+            <img src="jayz.jpg" alt="JAY-Z" width="600" height="400">
+          </a>
+          <div class="desc">JAY-Z</div>
+        </div>
+    </div>
+    </section>
+
+    
+    
+</main>
 </body>
 </html>
