@@ -24,6 +24,19 @@ p.sansserif2 {
   color: white;
 }
 
+p.sansserif3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 140%;
+}
+
+p.sansserif4 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  color: black;
+}
+
 h1.sansserif {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -123,8 +136,8 @@ nav{
         font-family: Arial, Helvetica, sans-serif;
         font-size:1.2rem;
         font-weight:bold;
-        height:1.2rem;
-        line-height:1.2rem;
+        height:2.0rem;
+        line-height:2.0rem;
         text-align:center;
         list-style-type:none;
         overflow:hidden;
@@ -241,7 +254,6 @@ div.desc {
 
 
 @media only screen and (max-width:800px) {
-  /* For tablets: */
   .main {
     width: 80%;
     padding: 0;
@@ -251,7 +263,6 @@ div.desc {
   }
 }
 @media only screen and (max-width:500px) {
-  /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
   }
@@ -265,4 +276,18 @@ div.desc {
   background-color: #9999ff;
   color: white;
   text-align: center;
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: hotpink;
 }
