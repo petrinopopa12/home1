@@ -291,3 +291,11 @@ a:link, a:visited {
 a:hover {
   color: hotpink;
 }
+
+body.back1{
+    background-image: url("pop6.png");
+}
+
+body.back2{
+    background-image: url("rock1.dms");
+}
