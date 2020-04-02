@@ -300,8 +300,7 @@ body.back2{
     background-image: url("rock1.dms");
 }
 
-p.font1{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+p.sansserif5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
