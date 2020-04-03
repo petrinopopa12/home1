@@ -14,6 +14,9 @@
 
 </head>
 <body style="background-color:#66ccff">
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
 <header>
 
 
@@ -57,7 +60,11 @@
 <img src="muzica1.jpg" alt="music" style="max-width:100%;height:auto;">
 <p class="sansserif2">"Muzica poate schimba lumea" - Ludwig van Beethoven</p>
 </section>
-
+<div class="flex-container">
+  <div class="flexb">Alege. </div>
+  <div class="flexb">Descarca. </div>
+  <div class="flexb">Bucura-te de continut! </div>
+</div>
 <section>
   <h2 class="sansserif">SHOP</h2>
   <p class="sansserif">Cele mai asculate albume, doar la un click distanta.</p>
@@ -93,7 +100,9 @@
       </tr>
 </table>
 </section>
-
+<div class="fig">
+<p class="sansserif2">Din data de 03.04.2020 suntem in noua locatie din centrul comercial Baneasa</p>
+</div>
 <section>
     
   <h3 class="sansserif">De ce muzica?</h3>
@@ -106,11 +115,34 @@
   <figcaption>Fig1. - Emil Cioran</figcaption>
 </figure>
 </section>
+
+
 </main>
 <div class="footer">
   <p class="sansserif"><small>Posted by: Popa-Podarascu Ioan-Petrino</small></p>
   <p class="sansserif"><small>Contact information: <a href="mailto:petrino.popa@yahoo.com">petrino.popa@yahoo.com</a>.</small></p>
 </div>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 </html>
